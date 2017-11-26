@@ -1,0 +1,36 @@
+body{
+
+    font-size: 20px;
+}
+
+.container {
+
+    height:100px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: cyan;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 40px;
+
+}
+
+
+button {
+
+    height: 50px;
+    flex-grow:1;
+    font-size: inherit;
+}
+
+
+.counter-display{
+
+    height:50px;    
+    flex-grow: 2;
+    width:100%;
+    text-align: center;
+    line-height: 50px;
+}
