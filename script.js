@@ -78,7 +78,8 @@ var Counter = React.createClass({
 
     shouldComponentUpdate: function() {
         
-        console.log('shouldComponentUpdate: Sprawdza po setState lub setProps(a w konsekwecji componentWillReceiveProps) czy zachodzi potrzeba przerenerowania komponentu po zaistnialych zmianach, zwraca boolean value.');
+        return true
+        //console.log('shouldComponentUpdate: Sprawdza po setState lub setProps(a w konsekwecji componentWillReceiveProps) czy zachodzi potrzeba przerenerowania komponentu po zaistnialych zmianach, zwraca boolean value.');
     },
 
     componentWillUpdate: function() {
